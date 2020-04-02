@@ -28,12 +28,6 @@ class RegisterUser(Resource):
         record = user.create_record()
         return user_schema.dump(record), 201
 
-    def get(self):
-        pass
-
-    def put(self):
-        pass
-
 
 @ns_userLogin.route('')
 class Login(Resource):
