@@ -1,9 +1,4 @@
 
-class DevelopmentConfigs:
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:Brian8053@@127.0.0.1:5432/postgres'
-    SECRET_KEY = 'DSFKJHKJH090912'
-    JWT_SECRET_KEY = 'IDONTCARE@#HAHAH'
 
 class TestingConfig:
     DEBUG = True
