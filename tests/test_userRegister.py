@@ -25,6 +25,6 @@ class TestUserRegister(TestCase):
         res_data = json.loads(response.data)
         # then
         self.assertEqual(response.status_code,201)
-        self.assertTrue(res_data['access_token'])
+        
 
         
